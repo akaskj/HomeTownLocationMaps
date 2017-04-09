@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout
+android:id="@+id/activity_user_info_form"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+
+android:weightSum="1"
+android:orientation="vertical">
+
+
+<TextView
+    android:text="@string/nickname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/nicknameTextView" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:ems="10"
+    android:id="@+id/nicknameEditText" />
+
+<TextView
+    android:text="@string/password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/passwordTextView" />
+
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPassword"
+    android:ems="10"
+    android:id="@+id/passwordEditText" />
+
+<TextView
+    android:text="@string/country"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/countryTextView" />
+
+<Spinner
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/countrySpinner" />
+
+<TextView
+    android:text="@string/state"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/stateTextView" />
+
+<Spinner
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/stateSpinner" />
+<TextView
+    android:text="@string/city"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cityTextView" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:ems="10"
+    android:id="@+id/cityEditText" />
+
+<TextView
+    android:text="@string/year"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/yearTextView" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:ems="10"
+    android:id="@+id/yearEditText" />
+
+<TextView
+    android:text="@string/latlong"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/latlongTextView" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+    <EditText
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:enabled="false"
+        android:ems="10"
+        android:id="@+id/latlongEditText"
+        android:layout_weight="1.06" />
+
+    <Button
+        android:text="@string/set"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/latlong"
+        android:onClick="onClickSetlatlong"/>
+</LinearLayout>
+
+<Button
+    android:text="@string/submit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:onClick="onClickPostData"
+    android:id="@+id/submit" />
+
+</LinearLayout>
+</ScrollView>
