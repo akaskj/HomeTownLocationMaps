@@ -17,11 +17,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".UserInfoForm">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".SetMapContent" />
         <activity android:name=".ViewActivity" />
@@ -31,7 +26,14 @@
             android:value="@string/google_api" />
 
         <activity android:name=".CountryStateActivity" />
-        <activity android:name=".Employee">
+        <activity android:name=".Employee" />
+        <activity android:name=".LogInActivity" />
+        <activity android:name=".SignUpActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

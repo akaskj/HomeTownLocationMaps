@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "882498774685",
+    "firebase_url": "https://hometownlocation-62b76.firebaseio.com",
+    "project_id": "hometownlocation-62b76",
+    "storage_bucket": "hometownlocation-62b76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882498774685:android:04cf5dd01236e958",
+        "android_client_info": {
+          "package_name": "com.sdsu.testchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882498774685-dipmtbf76j6i4rv02suhgfilutievv51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyzmMKq4sE4Yfn6K6e755e3QaATTqe2lE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882498774685:android:855be99c53d5fa6b",
+        "android_client_info": {
+          "package_name": "sdsu.com.hometownlocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882498774685-dipmtbf76j6i4rv02suhgfilutievv51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyzmMKq4sE4Yfn6K6e755e3QaATTqe2lE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

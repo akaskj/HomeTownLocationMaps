@@ -41,8 +41,8 @@ public class ListUsersView extends Fragment {
             try {
                 jsonObj = new JSONObject(myValue.get(i));
                 newUser = new User(jsonObj);
-                userDetails = new UserDetails(jsonObj);
-                dbHelper.addUser(userDetails);
+//                userDetails = new UserDetails(jsonObj);
+//                dbHelper.addUser(userDetails);
 
                 adapter.add(newUser);
                 ListView listView = (ListView) view.findViewById(android.R.id.list);
